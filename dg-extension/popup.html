@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Image Grabber</title>
+        <link rel="stylesheet" type="text/css" href="popup.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <meta charset="utf-8">
+
+    </head>
+    <body>
+        <div class="container">
+            <h1>Chat Bot</h1>
+            <div class="window" id="window">
+                <div class="alert alert-success message-sent message">Привет! Я чат-бот платформы Universe DG. Чем могу помочь?</div> 
+            </div>
+            <div class="button-group">
+                <span type="button" class="btn btn-outline-success btn-message">Найти необходимые данные</span>
+                <span type="button" class="btn btn-outline-success btn-message">Задать вопрос о платформе</span>
+                <span type="button" class="btn btn-outline-success btn-message">Отчет</span>
+                <span type="button" class="btn btn-outline-success btn-message">Правило качества</span>
+                <span type="button" class="btn btn-outline-success btn-message">Показатель</span>
+                <span type="button" class="btn btn-outline-success btn-message">База данных</span>
+            </div>
+            <div class="input-group send-message">
+              <input id="input-message" type="text" class="form-control" placeholder="Текст.." aria-label="Текст.." aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-primary" id="send-message" type="button">-></button>
+              </div>
+            </div>
+        </div>
+        <script src="popup.js"></script>
+    </body>
+</html>
